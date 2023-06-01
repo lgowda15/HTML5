@@ -1,0 +1,27 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 200px;
+    background-color: #d2f3e5;
+  }
+  
+  .title {
+    color: #fc6507;
+    text-align: center;
+  }
+  
+  .post {
+    background-color: #86b89d;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .post-title {
+    color: #a20909;
+  }
+  
+  .post-content {
+    color: #c24842;
+    line-height: 1.6;
+  }
+  
