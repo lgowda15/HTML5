@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page layout and spacing */
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .ingredients-section,
+  .instructions-section,
+  .cooking-time-section {
+    padding: 20px;
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul, ol {
+    margin-bottom: 10px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style-type: disc;
+  }
+  
+  ol {
+    list-style-type: decimal;
+  }
+  
+  /* Cooking time section styling */
+  .cooking-time-section p {
+    margin-bottom: 5px;
+  }
+  
