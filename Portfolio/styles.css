@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Page layout and spacing */
+  header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(89, 89, 242);
+  }
+
+  p {
+    color: rgb(100,78,78);
+  }
+  
+  .profile img {
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .about-section,
+  .projects-section,
+  .skills-section,
+  .contact-section {
+    padding: 20px;
+    background-color: rgb(95, 106, 191);
+  }
+  
+  .projects-section .project {
+    margin-bottom: 20px;
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(130, 38, 38);
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(148, 76, 76);
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgb(158, 76, 76);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color:rgb(128, 76, 76)
+  }
+  
+  /* Links */
+  a {
+    color: rgb(100,78,78);
+  }
