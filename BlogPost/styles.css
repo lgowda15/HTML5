@@ -1,27 +1,63 @@
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 200px;
-    background-color: #d2f3e5;
-  }
-  
-  .title {
-    color: #fc6507;
-    text-align: center;
-  }
-  
-  .post {
-    background-color: #86b89d;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  .post-title {
-    color: #a20909;
-  }
-  
-  .post-content {
-    color: #c24842;
-    line-height: 1.6;
-  }
-  
+/* Reset some default styles */
+body, h1, p {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #331166;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Page layout and spacing */
+header {
+  padding: 20px;
+}
+
+.author-info {
+  margin-bottom: 20px;
+  color: #11bbdd;
+}
+
+.content-body {
+  padding: 20px;
+  color: #11ccd3;
+}
+
+.comments-section {
+  padding: 20px;
+  color: #11ddee;
+}
+
+/* Typography */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #11aaed;
+  font-style: italics;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #11bbdd;
+}
+
+.comment-content {
+  margin-bottom: 15px;
+  color: #11aade;
+}
+
+/* Comments styling */
+.comment {
+  margin-bottom: 20px;
+}
+
+.author-comment {
+  background-color: #e9f1f7;
+  padding: 10px;
+  border-radius: 5px;
+}
