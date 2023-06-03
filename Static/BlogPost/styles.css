@@ -2,38 +2,43 @@
 body, h1, p {
   margin: 10px;
   padding: 20px;
-  text-align: center;
-  background-color: #331166;
+  font-size: 10;
+  background-color: #8f2a5b;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Page layout and spacing */
 header {
   padding: 20px;
+  text-align: center;
 }
 
 .author-info {
   margin-bottom: 20px;
   color: #11bbdd;
+  text-align: center;
 }
 
 .content-body {
   padding: 20px;
   color: #11ccd3;
+  text-align: justify;
 }
 
 .comments-section {
   padding: 20px;
   color: #11ddee;
+  text-align: left;
 }
 
 /* Typography */
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #11aaed;
   font-style: italics;
+  text-align: center;
 }
 
 .author-name {
