@@ -11,7 +11,7 @@ body, h1, h2, p, ul {
     background-color: #f7f7f7;
     padding: 20px;
     text-align: center;
-    background-color: rgb(89, 89, 242);
+    background-color: rgb(153, 153, 234);
   }
 
   p {
@@ -30,7 +30,7 @@ body, h1, h2, p, ul {
   .skills-section,
   .contact-section {
     padding: 20px;
-    background-color: rgb(95, 106, 191);
+    background-color: rgb(145, 151, 198);
   }
   
   .projects-section .project {
