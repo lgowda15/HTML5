@@ -1,20 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightcyan;
     margin: 0;
     padding: 0;
   }
   
   h1 {
     text-align: center;
-    color: #333;
+    color: #580303;
     margin-top: 30px;
   }
   
   .registration-form {
     width: 400px;
     margin: 30px auto;
-    background-color: #fff;
+    background-color: #c5b7b7;
     padding: 40px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,13 +32,13 @@ body {
     width: 100%;
     padding: 10px;
     background-color: #334443;
-    color: #fff;
+    color: #880101;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
   .submit-btn:hover {
-    background-color: #555;
+    background-color: #9c9c9c;
   }
   
