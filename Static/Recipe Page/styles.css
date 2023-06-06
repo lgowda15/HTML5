@@ -2,6 +2,8 @@
 body, h1, h2, p, ul, ol, li {
     margin: 0;
     padding: 0;
+    background-color: rgba(66, 32, 32, 0.704);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   /* Page layout and spacing */
@@ -15,13 +17,21 @@ body, h1, h2, p, ul, ol, li {
     height: auto;
     margin-top: 20px;
   }
+
+  .title{
+    padding:10px;
+    background-color: antiquewhite;
+    text-align: center;
+  }
   
   .ingredients-section,
   .instructions-section,
   .cooking-time-section {
-    padding: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: center;
   }
-  
+ 
   /* Typography */
   h1 {
     font-size: 24px;
