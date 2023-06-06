@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
   
   /* Navigation menu styles */
   nav {
-    background-color: #333;
+    background-color: #8f5656;
     color: #fff;
     padding: 20px;
   }
@@ -51,7 +51,7 @@ body, h1, h2, h3, p, ul, li {
   .line {
     width: 30px;
     height: 3px;
-    background-color: #fff;
+    background-color: #5a2b2b;
     margin-bottom: 5px;
     transition: transform 0.3s ease;
   }
