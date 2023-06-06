@@ -3,25 +3,37 @@ body, h1, h2, p, ul, li, img, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F70D1A;
+    color: #FFF200;
+  }
+
+  .cimg {
+    height: 50px;
+    width: 200px;
+  }
+
+  .cimg-kit{
+    height: 200px;
+    width: 300px;
   }
   
   /* Page layout and spacing */
   header {
-    background-color: #f7f7f7;
+    background-color: #F70D1B;
     padding: 20px;
     text-align: center;
   }
   
   .product-section {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-around;
     padding: 20px;
   }
   
   .product-images {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
   
@@ -32,47 +44,55 @@ body, h1, h2, p, ul, li, img, a {
   
   .product-details {
     flex: 1;
-    padding: 20px;
+    padding: 30px;
+    font-size: 23px;
   }
   
   /* Typography */
   h1 {
-    font-size: 24px;
+    font-size: 75px;
     margin-bottom: 10px;
   }
   
   h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 60px;
+    margin-bottom: 30px;
   }
   
   p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
   }
   
   ul {
     list-style-type: disc;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 30px;
   }
   
   /* Pricing and buy button */
   .price {
-    font-size: 18px;
+    font-size: 35px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
   }
   
   .buy-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #00A551;
+    color: #000;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    margin-top: 50px;
   }
   
   .buy-button:hover {
-    background-color: #0056b3;
+    background-color: #00A451;
   }
   
